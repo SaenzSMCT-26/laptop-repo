@@ -1,0 +1,60 @@
+.hed-1 {
+    display: inline-block;
+    text-align: center;
+    border: center;
+}
+.hdiv2 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+.body-div {
+    display: inline-block;
+    width: 300px;
+    margin-right: 15px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.thumbnail-row {
+    margin-bottom: 10px;
+}
+.thumbnail-pic {
+    width: 300px;
+}
+
+
+.profile-pic {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.profile-pic-sub {
+    width: 36px;
+    border-radius: 50px;
+}
+
+
+.video-info {
+    display: inline-block;
+    width: 245px;
+    font-family: Roboto;
+}
+
+.vidttl {
+    margin-top: 0;
+    font-weight: ;
+}
+.vidauth {
+    color: rgba(85, 85, 85, 0.9);
+}
+.vidstat {
+    color: rgba(85, 85, 85, 0.9);
+    font-size: 10px;
+}

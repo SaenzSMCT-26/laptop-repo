@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta meta name="viewport" content="width=device-width, user-scalable=no"> 
+        <link rel="stylesheet" href="calculator.css">
+        <link href="https://fonts.cdnfonts.com/css/digital-numbers" rel="stylesheet">
+        <title>CalculatorX.com</title>
+    </head>
+    <body style="height: 100vh;">
+        <div class="calculator">
+            <div class="screen-container">
+                <input id="screen" readonly placeholder="0">
+                <img src="" class="cal-x-logo">
+            </div>
+            <div class="key-container">
+                <button onclick="addToScreen('1')">1</button>
+                <button onclick="addToScreen('2')">2</button>
+                <button onclick="addToScreen('3')">3</button>
+                <button onclick="addToScreen('+')" class="operation-key">+</button>
+                <button onclick="addToScreen('4')">4</button>
+                <button onclick="addToScreen('5')">5</button>
+                <button onclick="addToScreen('6')">6</button>
+                <button onclick="addToScreen('-')" class="operation-key">-</button>
+                <button onclick="addToScreen('7')">7</button>
+                <button onclick="addToScreen('8')">8</button>
+                <button onclick="addToScreen('9')">9</button>
+                <button onclick="addToScreen('*')" class="operation-key">*</button>
+                <button onclick="calculate('=')" class="calculate-key">=</button>
+                <button onclick="addToScreen('0')">0</button>
+                <button onclick="addToScreen('.')" class="operation-key">.</button>
+                <button onclick="addToScreen('/')" class="operation-key">/</button>
+                <button onclick="clearscreen('')">C</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,35 +1,35 @@
-/*let js = 'amazing';
-console.log(48 + 8 + 23 - 10);
+// const calcAverage = (a, b, c) => (a + b + c) / 3;
 
-console.log("Isaac");
-console.log(23);
-
-let firstname = "Ivaan";
-let first = "Kelsey";
-let favorite_subject = "cosmology";
-let favorite_food = "Pizza";
+// const scoreDolphins = calcAverage(44, 42, 64);
+// const scoreKoalas = calcAverage(78, 43, 24);
 
 
-console.log(firstname);
-console.log(firstname);
-console.log(firstname);
+// const checkWinner = function(avgDolphins, avgKoalas){
+//   if(avgDolphins >= 2 * avgKoalas){
+//     console.log(`Dolphins win!! - ${avgDolphins} to ${avgKoalas}`)  
+//   } else if(avgKoalas >= 2 * avgDolphins){
+//     console.log(`Koalas win!! - ${avgKoalas} to ${avgDolphins}`)
+//   } else{
+//     console.log(`no team wins... 😢`)
+//   }
+// }
 
-let three_years = 3;*/
+// console.log(checkWinner(scoreDolphins, scoreKoalas));
 
-let earthisFlat = 'is_true';
-console.log(earthisFlat)
+let screenContainer = document.getElementById('screen');
 
-console.log(typeof earthisFlat);
-console.log(typeof earthisFlat);
-console.log(typeof earthisFlat);
-console.log(typeof earthisFlat);
-let x = 20 + 10;
-x += 10;
-x *= 2;
-x /= 2;
-x ++;
-x --;
-console.log(x);
+let screen = 0;
 
-const isfullAge = 24;
-console.log(isfullAge >= 25);
+
+
+const addToScreen = (screenPrint) => {
+  'numOne' === screenPrint ? 
+  screenContainer.textContent = screen += 1 : 
+  'numTwo' === screenPrint ? 
+  screenContainer.textContent = screen += 2 : 
+  0;
+};
+
+const resetScreen = () => {
+  screenContainer.textContent = screen = 0;
+};
